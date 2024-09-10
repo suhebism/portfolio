@@ -48,7 +48,7 @@ export default function Home() {
         <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
       </Link>
       <Link href="exiles">
-        <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
+        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={img}/>
       </Link>
       <Link href="exiles">
         <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
