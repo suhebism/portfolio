@@ -1,17 +1,15 @@
-
 import React from "react";
 import Image from "next/image";
 import MainImg from "../../../public/exiles-logo.png";
 import Slider from "../../../components/Slider";
 
-
-const images=[
-  'https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-]
+const images = [
+  "https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+];
 const CaseStudy = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-10 pt-20 px-6 md:px-16 lg:px-32 2xl:px-80">
@@ -95,24 +93,42 @@ const CaseStudy = () => {
       <Slider pic1={pic2} pic2={pic2} pic3={pic2} pic4={pic2} pic5={pic2} pic6={pic2} pic7={pic2} pic8={pic2} className="basis-[100%] md:basis-[70%]" /> */}
       <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
       <div className="flex flex-col w-full items-start justify-start ">
-        <div className="flex flex-col items-start justify-start w-full">
-          <h1 className="sticky font-black text-6xl"> Discovery</h1>
+        <div className="flex flex-col items-start justify-start w-full gap-10">
+          <h1 className="sticky top-10 font-black text-2xl"> Discovery</h1>
           <div className="flex w-full justify-around gap-3 items-center">
             <div className="flex flex-col items-center">
-              <h1 className="text-6xl font-black">2</h1>
+              <h1 className="text-4xl font-semibold">2</h1>
               <p className="font-thin text-lg">User Flows</p>
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-6xl font-black">6</h1>
+              <h1 className="text-4xl font-semibold">6</h1>
               <p className="font-thin text-lg">User Interviews</p>
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-6xl font-black">6</h1>
+              <h1 className="text-4xl font-semibold">6</h1>
               <p className="font-thin text-lg">Competitive Analysis</p>
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-6xl font-black">1</h1>
+              <h1 className="text-4xl font-semibold">1</h1>
               <p className="font-thin text-lg">Customer Journey Map</p>
+            </div>
+          </div>
+          <div className="flex w-full gap-5">
+            <Image  className="w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <div className="w-1/2">
+              <h1 className="font-medium text-2xl">Exiles</h1>
+              <p>
+                Keeping a clean and organized hub is an important part of the
+                process for me.
+              </p>
+              <p>This Notion page included:
+                Project Plan Weekly Meeting Notes
+                Project Timeline Risk Ledger Decision Tracker Any additional
+                documents
+              </p>
+              <p>
+              Not only did it help keep the project organized, but this also helped establish trust with the client.
+              </p>
             </div>
           </div>
         </div>
