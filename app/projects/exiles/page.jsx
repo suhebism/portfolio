@@ -6,7 +6,7 @@ import Slider from "../../../components/Slider";
 
 
 const images=[
-  'https://images.unsplash.com/photo-1530658475523-40059c17a6b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  'https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   '/Home2.png',
   '/Home2.png',
   '/Home2.png',
