@@ -26,18 +26,6 @@ export default function Home() {
           where imagination meets precision, and let's design something
           remarkable together.
         </p>
-        {/* <div class="marquee ">
-          <div>
-            <span>
-              ++++ this is a running text aka marquee using html &amp; css +
-              text length is limited to the width
-            </span>
-            <span>
-              ++++ this is a running text aka marquee using html &amp; css +
-              text length is limited to the width
-            </span>
-          </div>
-        </div> */}
       </motion.div>
       
     </main>
@@ -48,13 +36,13 @@ export default function Home() {
         <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
       </Link>
       <Link href="exiles">
+        <ProjectCard title="ChargeSpot" category="UI/UX Case Study" img={img}/>
+      </Link>
+      <Link href="exiles">
+        <ProjectCard title="UPSC Quiz App" category="UI/UX Case Study" img={img}/>
+      </Link>
+      <Link href="exiles">
         <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={img}/>
-      </Link>
-      <Link href="exiles">
-        <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
-      </Link>
-      <Link href="exiles">
-        <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
       </Link>
     </div>
     <Link href='/projects'>More</Link>
