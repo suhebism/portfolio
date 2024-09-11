@@ -93,39 +93,43 @@ const CaseStudy = () => {
       <Slider pic1={pic2} pic2={pic2} pic3={pic2} pic4={pic2} pic5={pic2} pic6={pic2} pic7={pic2} pic8={pic2} className="basis-[100%] md:basis-[70%]" /> */}
       <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
       <div className="flex flex-col w-full items-start justify-start ">
-        <div className="flex flex-col items-start justify-start w-full gap-10">
-          <h1 className="sticky top-10 font-black text-2xl"> Discovery</h1>
-          <div className="flex w-full justify-around gap-3 items-center">
+        <div className="flex flex-col items-center justify-start w-full gap-10">
+          <h1 className="sticky top-10 font-semibold text-2xl"> Discovery</h1>
+          <div className="flex flex-col md:flex-row w-full justify-around gap-3 items-center">
             <div className="flex flex-col items-center">
-              <h1 className="text-4xl font-semibold">2</h1>
-              <p className="font-thin text-lg">User Flows</p>
+              <h1 className="text-3xl font-semibold">2</h1>
+              <p className="font-thin text-xs md:text-lg">User Flows</p>
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-4xl font-semibold">6</h1>
-              <p className="font-thin text-lg">User Interviews</p>
+              <h1 className="text-3xl font-semibold">6</h1>
+              <p className="font-thin text-xs md:text-lg">User Interviews</p>
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-4xl font-semibold">6</h1>
-              <p className="font-thin text-lg">Competitive Analysis</p>
+              <h1 className="text-3xl font-semibold">6</h1>
+              <p className="font-thin text-xs md:text-lg">Competitive Analysis</p>
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-4xl font-semibold">1</h1>
-              <p className="font-thin text-lg">Customer Journey Map</p>
+              <h1 className="text-3xl font-semibold">1</h1>
+              <p className="font-thin text-xs md:text-lg">Customer Journey Map</p>
             </div>
           </div>
-          <div className="flex w-full gap-5">
-            <Image  className="w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-            <div className="w-1/2">
+          <div className="flex flex-col md:flex-row w-full gap-5">
+            <Image  className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <div className="w-full md:w-1/2">
               <h1 className="font-medium text-2xl">Exiles</h1>
               <p>
                 Keeping a clean and organized hub is an important part of the
                 process for me.
               </p>
-              <p>This Notion page included:
-                Project Plan Weekly Meeting Notes
-                Project Timeline Risk Ledger Decision Tracker Any additional
-                documents
-              </p>
+              <p>This Notion page included:</p>
+              <ul className="flex flex-col overflow-hidden">
+                <li>Project Plan</li>
+                <li>Weekly Meeting Notes</li>
+                <li>Project Timeline</li>
+                <li>Risk Ledger</li>
+                <li>Decision Tracker</li>
+                <li>Any additionaldocuments</li>
+              </ul>
               <p>
               Not only did it help keep the project organized, but this also helped establish trust with the client.
               </p>
