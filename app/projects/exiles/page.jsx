@@ -94,7 +94,7 @@ const CaseStudy = () => {
       <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
       <div className="flex flex-col w-full items-start justify-start ">
         <div className="flex flex-col items-center justify-start w-full gap-10">
-          <h1 className="sticky top-10 text-3xl font-bold"> Discovery</h1>
+          <h1 className="sticky top-10 text-3xl font-bold bg-white w-full text-black text-center"> Discovery</h1>
           <div className="flex flex-col md:flex-row w-full justify-around gap-3 items-center">
             <div className="flex flex-col items-center">
               <h1 className="text-3xl font-semibold">2</h1>
@@ -151,7 +151,27 @@ const CaseStudy = () => {
             <Image  className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             
           </div>
+          <div className="flex flex-col-reverse md:flex-row w-full gap-5">
+          <div className="w-full md:w-1/2">
+              <h1 className="font-medium text-2xl md:text-4xl">Competitive Analysis</h1>
+              <p className="font-extralight"> examined the list of the client's competitors and collected data that might help us in our process.</p>
+              <p className="mt-10 font-extralight">
+              Here are some of our main observations:</p>
+              <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
+                <li>Dubsado had a well-designed dashboard with a lot of customizable options and dropdown features, which is something the client wants for her website.</li>
+                <li>The landing page for Hectic was visually appealing and informative, and it also had a color scheme that the client was interested in.</li>
+                <li>We also found the onboarding page for Honeybook to be helpful in understanding who their users are and what they are looking for.</li>
+              </ul>
+            </div>
+            <Image  className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            
+          </div>
         </div>
+        <div className="flex flex-col items-center justify-start w-full gap-10">
+          <h1 className="sticky top-10 text-3xl font-bold bg-white w-full text-black text-center"> Ideation</h1>
+          <div className="h-screen"></div>
+        </div>
+        
       </div>
     </div>
   );

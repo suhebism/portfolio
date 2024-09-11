@@ -8,8 +8,8 @@ const Footer = () => {
       <h1 className='text-xl md:text-2xl lg:text-5xl 2xl:text-7xl'>Get in touch at suhebism@gmail.com</h1>
       <div className='flex gap-5 md:gap-10'>
         <Link href='https://www.linkedin.com/in/suhebism/' target="_blank" rel="noopener noreferrer"><Linkedin /></Link>
-        <Link href='https://www.linkedin.com/in/suhebism/' target="_blank" rel="noopener noreferrer"><Github /></Link>
-        <Link href='https://www.linkedin.com/in/suhebism/' target="_blank" rel="noopener noreferrer"><Instagram  /></Link>
+        <Link href='https://github.com/suhebism' target="_blank" rel="noopener noreferrer"><Github /></Link>
+        <Link href='https://www.instagram.com/suhebism/' target="_blank" rel="noopener noreferrer"><Instagram  /></Link>
       </div>
       <div className='flex gap-5 md:gap-10'>
         <Link className='text-sm md:text-base' href='/projects'>Projects</Link>
