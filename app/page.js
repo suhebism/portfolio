@@ -2,6 +2,8 @@
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import img from '../public/exiles-logo.png'
+import chargeSpot from '../public/chargespot.png'
+import upsc from '../public/UPSC.png'
 import {motion} from 'framer-motion'
 import Link from "next/link";
 
@@ -27,22 +29,21 @@ export default function Home() {
           remarkable together.
         </p>
       </motion.div>
-      
     </main>
     <div className="px-6 md:px-16 lg:px-32 2xl:px-80">
     <p>Projects</p>
     <div className="flex flex-col gap-2">
       <Link href="projects/exiles">
-        <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img}/>
+        <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img} year="2021"/>
       </Link>
       <Link href="exiles">
-        <ProjectCard title="ChargeSpot" category="UI/UX Case Study" img={img}/>
+        <ProjectCard title="ChargeSpot" category="UI/UX Case Study" img={chargeSpot} year="2022"/>
       </Link>
       <Link href="exiles">
-        <ProjectCard title="UPSC Quiz App" category="UI/UX Case Study" img={img}/>
+        <ProjectCard title="UPSC Quiz App" category="UI/UX Case Study" img={upsc} year="2024"/>
       </Link>
       <Link href="exiles">
-        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={img}/>
+        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={img} year="2023"/>
       </Link>
     </div>
     <Link href='/projects'>More</Link>

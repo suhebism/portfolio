@@ -94,35 +94,35 @@ const CaseStudy = () => {
       <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
       <div className="flex flex-col w-full items-start justify-start ">
         <div className="flex flex-col items-center justify-start w-full gap-10">
-          <h1 className="sticky top-10 font-semibold text-2xl"> Discovery</h1>
+          <h1 className="sticky top-10 text-3xl font-bold"> Discovery</h1>
           <div className="flex flex-col md:flex-row w-full justify-around gap-3 items-center">
             <div className="flex flex-col items-center">
               <h1 className="text-3xl font-semibold">2</h1>
-              <p className="font-thin text-xs md:text-lg">User Flows</p>
+              <p className="font-extralight">User Flows</p>
             </div>
             <div className="flex flex-col items-center">
               <h1 className="text-3xl font-semibold">6</h1>
-              <p className="font-thin text-xs md:text-lg">User Interviews</p>
+              <p className="font-extralight">User Interviews</p>
             </div>
             <div className="flex flex-col items-center">
               <h1 className="text-3xl font-semibold">6</h1>
-              <p className="font-thin text-xs md:text-lg">Competitive Analysis</p>
+              <p className="font-extralight">Competitive Analysis</p>
             </div>
             <div className="flex flex-col items-center">
               <h1 className="text-3xl font-semibold">1</h1>
-              <p className="font-thin text-xs md:text-lg">Customer Journey Map</p>
+              <p className="font-extralight">Customer Journey Map</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row w-full gap-5">
-            <Image  className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <Image  className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1725034408642-a3a0ecefd94e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             <div className="w-full md:w-1/2">
-              <h1 className="font-medium text-2xl">Exiles</h1>
-              <p>
+              <h1 className="font-medium text-2xl md:text-4xl">Exiles</h1>
+              <p className="font-extralight">
                 Keeping a clean and organized hub is an important part of the
                 process for me.
               </p>
-              <p>This Notion page included:</p>
-              <ul className="flex flex-col overflow-hidden">
+              <p className="mt-10 font-medium md:font-bold text-xl md:text-3xl">This Notion page included:</p>
+              <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>Project Plan</li>
                 <li>Weekly Meeting Notes</li>
                 <li>Project Timeline</li>
@@ -134,6 +134,22 @@ const CaseStudy = () => {
               Not only did it help keep the project organized, but this also helped establish trust with the client.
               </p>
             </div>
+          </div>
+          <div className="flex flex-col-reverse md:flex-row w-full gap-5">
+          <div className="w-full md:w-1/2">
+              <h1 className="font-medium text-2xl md:text-4xl">Client Questionnaire</h1>
+              <p className="font-extralight">To gain a better understanding of the client's vision, a questionnaire was conducted.</p>
+              <p className="mt-10 font-medium md:font-bold text-xl md:text-3xl">The questionnaire clarified these important points:</p>
+              <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
+                <li>The client didn't have a brand or style guide in place yet.</li>
+                <li>They wanted the dashboard to be user-friendly and easy to access.</li>
+                <li>Project Timeline</li>
+                <li>They wanted a platform that would streamline workflow for users to be able to effectively manage their brands.</li>
+              </ul>
+              <p>Through talking with the client, I could see that we were being tasked to create the MVP for this product concept.</p>
+            </div>
+            <Image  className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            
           </div>
         </div>
       </div>
