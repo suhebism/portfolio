@@ -171,9 +171,44 @@ const CaseStudy = () => {
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10">
           <h1 className="sticky top-10 text-3xl font-bold bg-white w-full text-black text-center"> Ideation</h1>
-          <div className="h-screen"></div>
+          <div className="flex flex-col w-full ">
+            <h1 className="font-medium text-2xl md:text-4xl">User Stories</h1>
+            <p className="font-extralight my-5">The user stories were provided by the client.</p>
+            <div className="font-extralight flex flex-col gap-0 ml-5">
+              <p>As a user, I want to learn about Simplebook from the homepage.</p>
+              <p>As a user, I want to be able to sign up for an account and log in.</p>
+              <p>As a user, I want to be able to view my dashboard upon login.</p>
+              <p>As a user, I want to be able to add a project.</p>
+              <p>As a user, I want to be able to manage my projects.</p>
+            </div>
+          </div>
+          <div className="flex flex-col w-full ">
+            <h1 className="font-medium text-2xl md:text-4xl">User Flow</h1>
+            <p className="font-extralight">To design user-centric products, we needed user flows that allowed us to understand what our users needed in order to accomplish their goals. I was a part of creating user flows 1 and 5. Managing a dashboard can be overwhelming, so our goal was to keep our flows as simple as possible to minimize any pain points.</p>
+          </div>
+          <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
+          <div className="flex flex-col w-full ">
+            <h1 className="font-medium text-2xl md:text-4xl">Mid-Fi Wireframes</h1>
+            <p className="font-extralight">To effectively tackle the design workload, we allocated specific user flows to each designer for creating mid-fidelity wireframes. Our aim was to ensure that our screens adhered to best practices for dashboard design.</p>
+            <p>While we collaborated as a team for a cohesive look, I took charge of the landing page. The landing page needed to be simple yet effective in converting to sales. Potential clients would easily be able to see the value of using Simplebook just by viewing this page.</p>
+          </div>
+          <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
         </div>
-        
+        <div className="flex flex-col items-center justify-start w-full gap-10 mt-10">
+        <h1 className="sticky top-10 text-3xl font-bold bg-white w-full text-black text-center"> Design</h1>
+        <div className="flex flex-col-reverse md:flex-row w-full gap-5">
+          <div className="w-full md:w-1/2">
+              <h1 className="font-medium text-2xl md:text-4xl">Moodboard</h1>
+              <p className="font-extralight">Because we are tasked with the initial MVP, we decided to moodboard some ideas in terms of brand identity.</p>
+              <p className="mt-10 font-extralight">Some findings were:</p>
+              <div className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2  ml-5">
+                <p>Color Psychology states that blue shades lean towards trust, and loyalty, with a calm minimalist design</p>
+                <p>Our main focus was to create a seamless clean aesthetic, to not take away from the important data points presented on a dashboard</p>
+              </div>
+            </div>
+            <Image className="w-full md:w-1/2" width={200} height={500} src="https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+          </div>
+        </div>
       </div>
     </div>
   );
