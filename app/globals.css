@@ -3,14 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: #000000;
-  color: white;
-}
 
 
 body {
-  background-color: #000000;
+  font-family: "Kanit";
+  background: #000000;
   color: white;
 }
 
