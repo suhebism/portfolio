@@ -4,7 +4,6 @@ const nextConfig = {
       images:{
         unoptimized: true,
         domains:['images.unsplash.com'],
-        domains:['images.i.ibb.co']
       }
     }
   
