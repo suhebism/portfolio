@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className='hidden md:flex gap-5 w-auto items-center '>
         <Link className='font-thin text-sm  hover:font-medium w-8 ' href="/">Home</Link>
         <Link className='font-thin text-sm hover:font-medium w-8' href="/about">About</Link>
-        <Link className='font-thin text-sm hover:font-medium w-8' href="/blog">Blog</Link>
+        <Link className='font-thin text-sm hover:font-medium w-8' href="/">Blog</Link>
         <div className='w-4 h-[1px] bg-white'></div>
         <Link className='font-thin text-sm hover:font-medium w-8' href='/contact'>Contact</Link>
       </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className='fixed w-screen h-screen bg-black flex items-center justify-center flex-col z-50'>
         <Link className='font-thin text-xl transition ease-in-out delay-150 hover:font-medium' onClick={()=>setToggle(flase)} href="/" >Home</Link>
         <Link className='font-thin text-xl hover:font-medium' onClick={()=>setToggle(flase)} href="/about">About</Link>
-        <Link className='font-thin text-xl hover:font-medium' onClick={()=>setToggle(flase)} href="/blog">Blog</Link>
+        <Link className='font-thin text-xl hover:font-medium' onClick={()=>setToggle(flase)} href="/">Blog</Link>
         <Link className='font-thin text-xl hover:font-medium' onClick={()=>setToggle(flase)} href='/contact'>Contact</Link>
         <p className='fixed top-2 right-5 font-thin text-xl cursor-pointer' onClick={()=>setToggle(false)}>close</p>
       </div>
