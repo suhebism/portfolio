@@ -18,7 +18,7 @@ const CaseStudy = () => {
       {/* section one  */}
       <div className="w-full flex items-start md:items-center flex-col-reverse md:flex-row justify-between">
         <div className="w-full md:w-1/2 flex flex-col ">
-          <h1 className="font-bold text-5xl text-[#d5656f]">Centarius</h1>
+          <h1 className="font-bold text-5xl text-[#d5656f]">Centarius.App</h1>
           <p className="font-light">
             Building the next generation of social gameplay
           </p>
@@ -167,19 +167,16 @@ const CaseStudy = () => {
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              src="https://images.unsplash.com/photo-1725034408642-a3a0ecefd94e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style={{height:"auto"}}
+              src="https://images.unsplash.com/photo-1725273543351-23995c7253d6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <div className="w-full md:w-1/2">
               <h1 className="font-medium text-2xl md:text-4xl">Exiles</h1>
               <p className="font-extralight">
-                The journey to creating "Exiles" began with a deep dive into the
-                evolving landscape of web-based gaming and player preferences.
-                Through research, we identified a growing desire for games that
-                offer both customization and strategic depth, while maintaining
-                a fair and engaging experience for a broad audience.
+              The Discovery Stage is critical in laying the groundwork for Centarius. It focuses on understanding the market, defining user needs, and identifying potential challenges and opportunities. This stage aims to gather insights that will inform the design and development processes, ensuring that Centarius meets both player expectations and business goals.
               </p>
               <p className="mt-10 font-medium md:font-bold text-xl md:text-3xl">
-                This Notion page included:
+              Comprehensive Project Overview:
               </p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>Project Plan</li>
@@ -204,21 +201,22 @@ const CaseStudy = () => {
                 To gain a better understanding of the client's vision, a
                 questionnaire was conducted.
               </p>
-              <p className="mt-10 font-medium md:font-bold text-xl md:text-3xl">
+              <p className="mt-10 font-medium text-xl md:text-2xl">
                 The questionnaire clarified these important points:
               </p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>
-                  The client didn't have a brand or style guide in place yet.
+                Project Goals: What are the primary objectives for Centarius, and what problems do you aim to address?
                 </li>
                 <li>
-                  They wanted the dashboard to be user-friendly and easy to
-                  access.
+                Target Audience: Who is your target audience, and what are their key demographics?
                 </li>
-                <li>Project Timeline</li>
+                <li>Must-Have Features: What essential features and functionalities should be included at launch?</li>
                 <li>
-                  They wanted a platform that would streamline workflow for
-                  users to be able to effectively manage their brands.
+                User Engagement Strategies: How do you envision enhancing user engagement on the platform?
+                </li>
+                <li>
+                Timeline and Milestones: What is your desired timeline for the project, and are there any critical milestones we should know about?
                 </li>
               </ul>
               <p>
@@ -231,7 +229,8 @@ const CaseStudy = () => {
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              src="https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style={{height:"auto"}}
+              src="https://images.unsplash.com/photo-1484069560501-87d72b0c3669?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
           <div className="flex flex-col-reverse md:flex-row w-full gap-5">
@@ -270,7 +269,8 @@ const CaseStudy = () => {
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              src="https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style={{height:'auto'}}
+              src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
         </div>
@@ -281,22 +281,22 @@ const CaseStudy = () => {
           </h1>
           <div className="flex flex-col w-full ">
             <h1 className="font-medium text-2xl md:text-4xl">User Stories</h1>
-            <p className="font-extralight my-5">
+            <p className="font-normal my-5">
               The user stories were provided by the client.
             </p>
             <div className="font-extralight flex flex-col gap-0 ml-5">
               <p>
-                As a user, I want to learn about Simplebook from the homepage.
+              <span className="font-normal">As a Casual Player,</span> I want to easily navigate the platform so that I can quickly find and play games without any hassle.
               </p>
               <p>
-                As a user, I want to be able to sign up for an account and log
+              <span className="font-normal">As a Competitive Gamer,</span> I want to track my progress and achievements so that I can measure my skills against others and participate in contests effectively.
                 in.
               </p>
               <p>
-                As a user, I want to be able to view my dashboard upon login.
+              <span className="font-normal">As a New User,</span> I want a seamless onboarding experience so that I can understand how to use the platform and start playing games right away.
               </p>
-              <p>As a user, I want to be able to add a project.</p>
-              <p>As a user, I want to be able to manage my projects.</p>
+              <p><span className="font-normal">As a Player Seeking Rewards,</span> I want to earn XP points and unlock prizes through gameplay, motivating me to stay engaged and keep playing.</p>
+              <p><span className="font-normal">As a Social Gamer,</span> I want to connect with friends and join multiplayer games so that I can enhance my gaming experience and foster a sense of community.</p>
             </div>
           </div>
           <div className="flex flex-col w-full ">
