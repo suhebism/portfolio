@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MainImg from "../../../public/centarius-logo.png";
+// import MainImg from "../../../public/centarius-logo.png";
 import Slider from "../../../components/Slider";
 import Link from "next/link";
 
@@ -8,6 +8,8 @@ const images = [
   "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   // Add the rest of the image URLs here
 ];
+
+const MainImg = '/centarius-logo.png';
 
 const CaseStudy = () => {
   return (
