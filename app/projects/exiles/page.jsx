@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MainImg from "../../../public/exiles-logo.png";
+import MainImg from "../../../public/centarius-logo.png";
 import Slider from "../../../components/Slider";
 import Link from "next/link";
 
@@ -18,7 +18,7 @@ const CaseStudy = () => {
       {/* section one  */}
       <div className="w-full flex items-start md:items-center flex-col-reverse md:flex-row justify-between">
         <div className="w-full md:w-1/2 flex flex-col ">
-          <h1 className="font-bold text-5xl text-[#FFDD00]">Centarius</h1>
+          <h1 className="font-bold text-5xl text-[#d5656f]">Centarius</h1>
           <p className="font-light">
             Building the next generation of social gameplay
           </p>
@@ -90,12 +90,7 @@ const CaseStudy = () => {
             community aspect enhances engagement, as players can form alliances,
             share strategies, and participate in events.
           </p>
-          <p className="font-extralight text-normal">
-            Through these innovative solutions, "Exiles" aims to create a
-            compelling and enjoyable gaming experience that addresses player
-            needs for customization, fairness, and strategic depth, setting a
-            new standard for web-based gaming.
-          </p>
+          
         </div>
       </div>
       {/* section one  */}
@@ -144,7 +139,7 @@ const CaseStudy = () => {
       {/* section one  */}
       <div className="flex flex-col w-full items-start justify-start ">
         <div className="flex flex-col items-center justify-start w-full gap-10">
-          <h1 className="sticky top-10 text-3xl font-bold bg-[#FFDD00] w-full text-black text-center">
+          <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
             {" "}
             Discovery
           </h1>
@@ -280,7 +275,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10">
-          <h1 className="sticky top-10 text-3xl font-bold bg-white w-full text-black text-center">
+          <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
             {" "}
             Ideation
           </h1>
@@ -336,7 +331,7 @@ const CaseStudy = () => {
           <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10 mt-10">
-          <h1 className="sticky top-10 text-3xl font-bold bg-white w-full text-black text-center">
+          <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
             {" "}
             Design
           </h1>
