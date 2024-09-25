@@ -23,7 +23,7 @@ const CaseStudy = () => {
             Building the next generation of social gameplay
           </p>
         </div>
-        <Image className="w-full md:w-1/3" src={MainImg} alt="suheb" />
+        <Image className="w-full md:w-1/3 my-14 md:my-0" src={MainImg} alt="suheb" />
       </div>
       {/* section one  */}
       <div className="flex flex-col">

@@ -8,13 +8,13 @@ const ProjectCard = ({ img, category, title, year }) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }} // Optional: triggers animation only once
-      className="flex-col flex md:flex-row items-start md:items-center justify-between group transition transform hover:-translate-y-1 cursor-pointer gap-5"
+      className=" flex md:flex-row items-start md:items-center justify-between group transition transform hover:-translate-y-1 cursor-pointer gap-5"
     >
       <div className="w-full md:w-1/3">
-        <p className="font-thin text-base">{category}</p>
-        <p className="text-2xl md:text-5xl">{title}</p>
+        <p className="font-thin text-sm">{category}</p>
+        <p className="text-lg md:text-3xl">{title}</p>
       </div>
-      <div className="w-1/4 h-[1px] hidden md:block bg-slate-700 text-right">
+      <div className="w-1/4 h-[1px] hidden md:block bg-gradient-to-r from-black to-slate-700 text-right">
         <p className="text-lg">{year}</p> {/* Changed to a paragraph for semantic HTML */}
       </div>
       <Image

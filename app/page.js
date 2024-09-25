@@ -3,6 +3,8 @@ import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import centarius from '../public/centarius-logo.png'
 import chargeSpot from '../public/chargespot.png'
+import homeShikshaImg from '../public/homeshiksha.png' // Add correct image path
+
 import upsc from '../public/UPSC.png'
 import {motion} from 'framer-motion'
 import Link from "next/link";
@@ -17,7 +19,7 @@ export default function Home() {
       className=" flex flex-col gap-5">
         <p className="text-sm font-thin">
           Hello and welcome to my
-          <span className="text-2xl md:text-6xl font-bold ml-3 text-[#FFDD00]">creative playground!</span>
+          <span className="text-2xl md:text-6xl font-bold ml-3 text-white">creative playground!</span>
         </p>
         <div className="h-[1px] w-full bg-gradient-to-r from-gray-700 via-black to-black"></div>
         <p className="text-sm font-thin ">
@@ -31,19 +33,22 @@ export default function Home() {
       </motion.div>
     </main>
     <div className="px-6 md:px-16 lg:px-32 2xl:px-80">
-    <p>Projects</p>
-    <div className="flex flex-col gap-2">
+    <p className="text-2xl md:text-5xl my-10 font-bold"> My Projects</p>
+    <div className="flex flex-col gap-10">
       <Link href="projects/exiles">
         <ProjectCard title="Centarius" category="UI/UX Case Study" img={centarius} year="2021"/>
       </Link>
+      <div className="w-full h-[1px] md:hidden block bg-gradient-to-r from-black via-slate-700 to-black"/>
       <Link href="exiles">
         <ProjectCard title="ChargeSpot" category="UI/UX Case Study" img={chargeSpot} year="2022"/>
       </Link>
+      <div className="w-full h-[1px] md:hidden block bg-gradient-to-r from-black via-slate-700 to-black"/>
       <Link href="exiles">
         <ProjectCard title="UPSC Quiz App" category="UI/UX Case Study" img={upsc} year="2024"/>
       </Link>
+      <div className="w-full h-[1px] md:hidden block bg-gradient-to-r from-black via-slate-700 to-black"/>
       <Link href="exiles">
-        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={centarius} year="2023"/>
+        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={homeShikshaImg} year="2023"/>
       </Link>
     </div>
     <Link href='/projects'>More</Link>
