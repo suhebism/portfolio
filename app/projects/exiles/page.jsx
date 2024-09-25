@@ -5,7 +5,11 @@ import Slider from "../../../components/Slider";
 import Link from "next/link";
 
 const images = [
-  "https://suhebism.github.io/portfolio/exiles-logo.png",
+  "https://suhebism.github.io/portfolio/Group 11.png",
+  "https://suhebism.github.io/portfolio/Group 12.png",
+  "https://suhebism.github.io/portfolio/Group 13.png",
+  "https://suhebism.github.io/portfolio/Group 14.png",
+  "https://suhebism.github.io/portfolio/Group 11.png",
 ];
 const CaseStudy = () => {
   return (
