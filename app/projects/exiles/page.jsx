@@ -4,10 +4,13 @@ import MainImg from "../../../public/centarius-logo.png";
 import Slider from "../../../components/Slider";
 import Link from "next/link";
 const images = [
-  "/Group 11.png",   
-  "/Group 12.png",
-  "/Group 13.png",
-  "/Group 14.png",
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+  "https://plus.unsplash.com/premium_photo-1664474515281-7fc50ac83da4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
 ];
 const CaseStudy = () => {
   return (
@@ -25,7 +28,7 @@ const CaseStudy = () => {
         <h1 className="text-3xl font-bold">Overview</h1>
         <p className="font-extralight w-full md:w-1/2 text-normal">
           Introduce Centarius as a dynamic web-based gaming platform offering
-          two distinct categories of games: Immersive and Casual. Explain the
+          two distinct categories of games Immersive and Casual. Explain the
           platform's goal of providing an engaging and rewarding gaming
           experience, where users can either casually play or compete in
           contests to win prizes. Emphasize your role as the product designer
