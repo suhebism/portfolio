@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
-import img from '../public/exiles-logo.png'
+import centarius from '../public/centarius-logo.png'
 import chargeSpot from '../public/chargespot.png'
 import upsc from '../public/UPSC.png'
 import {motion} from 'framer-motion'
@@ -17,7 +17,7 @@ export default function Home() {
       className=" flex flex-col gap-5">
         <p className="text-sm font-thin">
           Hello and welcome to my
-          <span className="text-2xl md:text-6xl font-bold ml-3">creative playground!</span>
+          <span className="text-2xl md:text-6xl font-bold ml-3 text-[#FFDD00]">creative playground!</span>
         </p>
         <div className="h-[1px] w-full bg-gradient-to-r from-gray-700 via-black to-black"></div>
         <p className="text-sm font-thin ">
@@ -34,7 +34,7 @@ export default function Home() {
     <p>Projects</p>
     <div className="flex flex-col gap-2">
       <Link href="projects/exiles">
-        <ProjectCard title="Exiles Interactive" category="UI/UX Case Study" img={img} year="2021"/>
+        <ProjectCard title="Centarius" category="UI/UX Case Study" img={centarius} year="2021"/>
       </Link>
       <Link href="exiles">
         <ProjectCard title="ChargeSpot" category="UI/UX Case Study" img={chargeSpot} year="2022"/>
@@ -43,7 +43,7 @@ export default function Home() {
         <ProjectCard title="UPSC Quiz App" category="UI/UX Case Study" img={upsc} year="2024"/>
       </Link>
       <Link href="exiles">
-        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={img} year="2023"/>
+        <ProjectCard title="Home Shiksha" category="UI/UX Case Study" img={centarius} year="2023"/>
       </Link>
     </div>
     <Link href='/projects'>More</Link>
