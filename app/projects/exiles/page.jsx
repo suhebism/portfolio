@@ -5,7 +5,7 @@ import Slider from "../../../components/Slider";
 import Link from "next/link";
 
 const images = [
-  "/exiles-logo.png",
+  "https://suhebism.github.io/portfolio/exiles-logo.png",
 ];
 const CaseStudy = () => {
   return (
