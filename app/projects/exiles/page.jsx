@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MainImg from "../../../public/centarius-logo.png";
+import userflow from "../../../public/userflow.png";
 import Slider from "../../../components/Slider";
 import Link from "next/link";
 
@@ -14,7 +15,6 @@ const images = [
 const CaseStudy = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-10 pt-20 px-6 md:px-16 lg:px-32 2xl:px-80">
-
       {/* section one  */}
       <div className="w-full flex items-start md:items-center flex-col-reverse md:flex-row justify-between">
         <div className="w-full md:w-1/2 flex flex-col ">
@@ -23,7 +23,11 @@ const CaseStudy = () => {
             Building the next generation of social gameplay
           </p>
         </div>
-        <Image className="w-full md:w-1/3 my-14 md:my-0" src={MainImg} alt="suheb" />
+        <Image
+          className="w-full md:w-1/3 my-14 md:my-0"
+          src={MainImg}
+          alt="suheb"
+        />
       </div>
       {/* section one  */}
       <div className="flex flex-col">
@@ -73,7 +77,9 @@ const CaseStudy = () => {
             <p className="font-medium">1. Dual Game Categories</p>
           </div>
           <div className=" text-normal">
-            <p className="font-medium">2. XP Point System and User Progression</p>
+            <p className="font-medium">
+              2. XP Point System and User Progression
+            </p>
           </div>
           <div className=" text-normal">
             <p className="font-medium">3. Contests and Competitive Play</p>
@@ -90,7 +96,6 @@ const CaseStudy = () => {
             community aspect enhances engagement, as players can form alliances,
             share strategies, and participate in events.
           </p>
-          
         </div>
       </div>
       {/* section one  */}
@@ -163,20 +168,25 @@ const CaseStudy = () => {
           </div>
           <div className="flex flex-col md:flex-row w-full gap-5">
             <Image
-            alt="suheb"
+              alt="suheb"
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              style={{height:"auto"}}
+              style={{ height: "auto" }}
               src="https://images.unsplash.com/photo-1725273543351-23995c7253d6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <div className="w-full md:w-1/2">
               <h1 className="font-medium text-2xl md:text-4xl">Exiles</h1>
               <p className="font-extralight">
-              The Discovery Stage is critical in laying the groundwork for Centarius. It focuses on understanding the market, defining user needs, and identifying potential challenges and opportunities. This stage aims to gather insights that will inform the design and development processes, ensuring that Centarius meets both player expectations and business goals.
+                The Discovery Stage is critical in laying the groundwork for
+                Centarius. It focuses on understanding the market, defining user
+                needs, and identifying potential challenges and opportunities.
+                This stage aims to gather insights that will inform the design
+                and development processes, ensuring that Centarius meets both
+                player expectations and business goals.
               </p>
               <p className="mt-10 font-medium md:font-bold text-xl md:text-3xl">
-              Comprehensive Project Overview:
+                Comprehensive Project Overview:
               </p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>Project Plan</li>
@@ -206,17 +216,25 @@ const CaseStudy = () => {
               </p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>
-                Project Goals: What are the primary objectives for Centarius, and what problems do you aim to address?
+                  Project Goals: What are the primary objectives for Centarius,
+                  and what problems do you aim to address?
                 </li>
                 <li>
-                Target Audience: Who is your target audience, and what are their key demographics?
-                </li>
-                <li>Must-Have Features: What essential features and functionalities should be included at launch?</li>
-                <li>
-                User Engagement Strategies: How do you envision enhancing user engagement on the platform?
+                  Target Audience: Who is your target audience, and what are
+                  their key demographics?
                 </li>
                 <li>
-                Timeline and Milestones: What is your desired timeline for the project, and are there any critical milestones we should know about?
+                  Must-Have Features: What essential features and
+                  functionalities should be included at launch?
+                </li>
+                <li>
+                  User Engagement Strategies: How do you envision enhancing user
+                  engagement on the platform?
+                </li>
+                <li>
+                  Timeline and Milestones: What is your desired timeline for the
+                  project, and are there any critical milestones we should know
+                  about?
                 </li>
               </ul>
               <p>
@@ -225,11 +243,11 @@ const CaseStudy = () => {
               </p>
             </div>
             <Image
-            alt="suheb"
+              alt="suheb"
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              style={{height:"auto"}}
+              style={{ height: "auto" }}
               src="https://images.unsplash.com/photo-1484069560501-87d72b0c3669?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
@@ -240,36 +258,43 @@ const CaseStudy = () => {
               </h1>
               <p className="font-extralight">
                 {" "}
-                examined the list of the client's competitors and collected data
-                that might help us in our process.
+                Centarius stands out in its simplicity and inclusiveness—by
+                removing the need to log in and offering both immersive and
+                casual gaming experiences. Its XP system and weekly contests
+                give users ongoing incentives to engage, which will be key in
+                attracting and retaining players in a competitive market.
+                Focusing on easy access, diverse game selection, and meaningful
+                rewards could position it as a unique contender.
               </p>
-              <p className="mt-10 font-extralight">
-                Here are some of our main observations:
-              </p>
+              <p className="mt-10 ">Here are some of our main observations:</p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>
-                  Dubsado had a well-designed dashboard with a lot of
-                  customizable options and dropdown features, which is something
-                  the client wants for her website.
+                  Skillz: Requires sign-up and deposits for cash-prize
+                  tournaments.
                 </li>
                 <li>
-                  The landing page for Hectic was visually appealing and
-                  informative, and it also had a color scheme that the client
-                  was interested in.
+                  WorldWinner: Focuses on skill-based cash contests, no
+                  immersive games.
                 </li>
                 <li>
-                  We also found the onboarding page for Honeybook to be helpful
-                  in understanding who their users are and what they are looking
-                  for.
+                  FACEIT: Esports-focused, appeals to pro gamers, requires
+                  registration.
+                </li>
+                <li>
+                  Steam: Vast game library, but no prize contests or XP-based
+                  system.
+                </li>
+                <li>
+                  Roblox: User-generated games, lacks real-world prize contests.
                 </li>
               </ul>
             </div>
             <Image
-            alt="suheb"
+              alt="suheb"
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              style={{height:'auto'}}
+              style={{ height: "auto" }}
               src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
@@ -286,30 +311,101 @@ const CaseStudy = () => {
             </p>
             <div className="font-extralight flex flex-col gap-0 ml-5">
               <p>
-              <span className="font-normal">As a Casual Player,</span> I want to easily navigate the platform so that I can quickly find and play games without any hassle.
+                <span className="font-normal">As a Casual Player,</span> I want
+                to easily navigate the platform so that I can quickly find and
+                play games without any hassle.
               </p>
               <p>
-              <span className="font-normal">As a Competitive Gamer,</span> I want to track my progress and achievements so that I can measure my skills against others and participate in contests effectively.
-                in.
+                <span className="font-normal">As a Competitive Gamer,</span> I
+                want to track my progress and achievements so that I can measure
+                my skills against others and participate in contests
+                effectively. in.
               </p>
               <p>
-              <span className="font-normal">As a New User,</span> I want a seamless onboarding experience so that I can understand how to use the platform and start playing games right away.
+                <span className="font-normal">As a New User,</span> I want a
+                seamless onboarding experience so that I can understand how to
+                use the platform and start playing games right away.
               </p>
-              <p><span className="font-normal">As a Player Seeking Rewards,</span> I want to earn XP points and unlock prizes through gameplay, motivating me to stay engaged and keep playing.</p>
-              <p><span className="font-normal">As a Social Gamer,</span> I want to connect with friends and join multiplayer games so that I can enhance my gaming experience and foster a sense of community.</p>
+              <p>
+                <span className="font-normal">
+                  As a Player Seeking Rewards,
+                </span>{" "}
+                I want to earn XP points and unlock prizes through gameplay,
+                motivating me to stay engaged and keep playing.
+              </p>
+              <p>
+                <span className="font-normal">As a Social Gamer,</span> I want
+                to connect with friends and join multiplayer games so that I can
+                enhance my gaming experience and foster a sense of community.
+              </p>
             </div>
           </div>
-          <div className="flex flex-col w-full ">
-            <h1 className="font-medium text-2xl md:text-4xl">User Flow</h1>
-            <p className="font-extralight">
-              To design user-centric products, we needed user flows that allowed
-              us to understand what our users needed in order to accomplish
-              their goals. I was a part of creating user flows 1 and 5. Managing
-              a dashboard can be overwhelming, so our goal was to keep our flows
-              as simple as possible to minimize any pain points.
-            </p>
+          <div className="flex flex-col md:flex-row gap-10">
+            <Image src={userflow} width={500} height={500}></Image>
+            <div className="flex flex-col w-full ">
+              <h1 className="font-medium text-2xl md:text-4xl">User Flow</h1>
+              <p className="font-extralight mb-10">
+                This flow prioritizes a frictionless experience by letting users
+                explore, play, and engage without the need for registration or
+                login, while still offering rewards through XP accumulation.
+              </p>
+              <div>
+                <div>
+                  <p>1. Site Access (No Login)</p>
+                  <p className="font-extralight ml-3">
+                    Users land on the homepage and can browse freely without
+                    logging in.
+                  </p>
+                </div>
+                <div>
+                  <p>2. Browse Categories (Immersive & Casual)</p>
+                  <p className="font-extralight ml-3">
+                  Immersive: Long, rich experiences.
+                  </p>
+                  <p className="font-extralight">
+                  Casual: Quick, easy-to-play games.
+                  </p>
+                </div>
+                <div>
+                  <p>3. Play Games</p>
+                  <p className="font-extralight ml-3">
+                  Choose and play games directly in the browser.
+                  </p>
+                </div>
+                <div>
+                  <p>4. Earn XP Points</p>
+                  <p className="font-extralight ml-3">
+                  Gain XP as you play, tracked via a progress bar or meter.
+                  </p>
+                </div>
+                <div>
+                  <p>5. Participate in Contests</p>
+                  <p className="font-extralight ml-3">
+                  Use XP to enter contests with rewards like money or gifts.
+                  </p>
+                </div>
+                <div>
+                  <p>6. Compete and Win</p>
+                  <p className="font-extralight ml-3">
+                  Join weekly contests, and winners get prizes (prize money/gifts).
+                  </p>
+                </div>
+                <div>
+                  <p>7. Engagement Encouragement</p>
+                  <p className="font-extralight ml-3">
+                  The more time spent, the more XP earned. Contest notifications keep users engaged.
+                  </p>
+                </div>
+                <div>
+                  <p>8. Explore & Repeat</p>
+                  <p className="font-extralight ml-3">
+                  Continue playing games or switch categories to discover new ones.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
+          {/* <Slider pics={images} className="basis-[95%] md:basis-[70%]" /> */}
           <div className="flex flex-col w-full ">
             <h1 className="font-medium text-2xl md:text-4xl">
               Mid-Fi Wireframes
@@ -328,6 +424,7 @@ const CaseStudy = () => {
               page.
             </p>
           </div>
+
           <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10 mt-10">
@@ -356,7 +453,7 @@ const CaseStudy = () => {
               </div>
             </div>
             <Image
-            alt="suheb"
+              alt="suheb"
               className="w-full md:w-1/2"
               width={200}
               height={500}
