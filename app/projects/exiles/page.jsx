@@ -178,7 +178,7 @@ const CaseStudy = () => {
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              style={{ height: "auto" }}
+              style={{ height: "fit-content" }}
               src="https://images.unsplash.com/photo-1725273543351-23995c7253d6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <div className="w-full md:w-1/2">
@@ -253,7 +253,7 @@ const CaseStudy = () => {
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              style={{ height: "auto" }}
+              style={{ height: "fit-content" }}
               src="https://images.unsplash.com/photo-1484069560501-87d72b0c3669?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
@@ -300,7 +300,7 @@ const CaseStudy = () => {
               className="w-full md:w-1/2"
               width={200}
               height={500}
-              style={{ height: "auto" }}
+              style={{ height: "fit-content" }}
               src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
@@ -347,7 +347,7 @@ const CaseStudy = () => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-10">
-            <Image src={userflow} width={500} height={500}></Image>
+            <Image src={userflow} width={500} height={500} style={{height:"fit-content"}}></Image>
             <div className="flex flex-col w-full ">
               <h1 className="font-medium text-2xl md:text-4xl">User Flow</h1>
               <p className="font-extralight mb-10">
@@ -446,15 +446,13 @@ const CaseStudy = () => {
                 moodboard some ideas in terms of brand identity.
               </p>
               <p className="mt-10 font-extralight">Some findings were:</p>
-              <div className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2  ml-5">
+              <div className="flex flex-col overflow-hidden font-extralight gap-5 md:gap-10  ml-5">
                 <p>
-                  Color Psychology states that blue shades lean towards trust,
-                  and loyalty, with a calm minimalist design
+                The color theme featuring pink and purple is often referred to as a vibrant gradient or neon gradient theme. It's common in futuristic and tech-driven designs, especially in the gaming and digital entertainment industries. These bright, bold colors with high contrast are part of the modern, playful or futuristic design style, often used to evoke energy, excitement, and creativity.
                 </p>
+               
                 <p>
-                  Our main focus was to create a seamless clean aesthetic, to
-                  not take away from the important data points presented on a
-                  dashboard
+                The color palette for Centarius, featuring pink and purple, was inspired by the emotional and psychological impact these colors evoke. Pink brings a sense of creativity, playfulness, and energy, perfectly aligning with the casual gaming experience. On the other hand, purple adds depth, ambition, and a touch of luxury, which suits the immersive and competitive aspects of the platform. Together, these colors create a dynamic and modern aesthetic, reflecting the vibrant, engaging atmosphere of the Centarius gaming world. This bold combination also taps into current design trends, offering both contrast and harmony for a visually striking user interface.
                 </p>
               </div>
             </div>
