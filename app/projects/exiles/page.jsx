@@ -10,7 +10,7 @@ const images = [
   "https://suhebism.github.io/portfolio/Group 12.png",
   "https://suhebism.github.io/portfolio/Group 13.png",
   "https://suhebism.github.io/portfolio/Group 14.png",
-  "https://suhebism.github.io/portfolio/Group 11.png",
+  "https://suhebism.github.io/portfolio/Group 15.png",
 ];
 const CaseStudy = () => {
   return (
