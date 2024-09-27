@@ -6,11 +6,17 @@ import Slider from "../../../components/Slider";
 import Link from "next/link";
 
 const images = [
+  "https://suhebism.github.io/portfolio/Group 14.png",
+  "https://suhebism.github.io/portfolio/Group 13.png",
   "https://suhebism.github.io/portfolio/Group 11.png",
   "https://suhebism.github.io/portfolio/Group 12.png",
-  "https://suhebism.github.io/portfolio/Group 13.png",
-  "https://suhebism.github.io/portfolio/Group 14.png",
   "https://suhebism.github.io/portfolio/Group 15.png",
+];
+const images2 = [
+  "https://suhebism.github.io/portfolio/Group 16.png",
+  "https://suhebism.github.io/portfolio/Group 17.png",
+  "https://suhebism.github.io/portfolio/Group 18.png",
+  "https://suhebism.github.io/portfolio/Group 19.png",
 ];
 const CaseStudy = () => {
   return (
@@ -408,7 +414,7 @@ const CaseStudy = () => {
           {/* <Slider pics={images} className="basis-[95%] md:basis-[70%]" /> */}
           <div className="flex flex-col w-full ">
             <h1 className="font-medium text-2xl md:text-4xl">
-              Mid-Fi Wireframes
+              Low-Fi Wireframes
             </h1>
             <p className="font-extralight">
               To effectively tackle the design workload, we allocated specific
@@ -425,7 +431,7 @@ const CaseStudy = () => {
             </p>
           </div>
 
-          <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
+          <Slider pics={images2} className="basis-[95%] md:basis-[70%]" />
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10 mt-10">
           <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
