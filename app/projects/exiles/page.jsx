@@ -58,17 +58,17 @@ const CaseStudy = () => {
           <div className="font-extralight text-normal">
             The gaming industry faces several key challenges:
             <p>
-              1. User Engagement: Many gaming platforms struggle to keep users
+              <span className="font-medium">1. User Engagement:</span> Many gaming platforms struggle to keep users
               engaged for long periods, leading to high bounce rates and low
               retention. Rewarding
             </p>
             <p>
-              2. User Loyalty: Platforms often lack meaningful rewards for users
+              <span className="font-medium">2. User Loyalty:</span> Platforms often lack meaningful rewards for users
               who spend time on the site, diminishing the motivation to continue
               playing.
             </p>
             <p>
-              3. Monetization: While ads can increase revenue, poor ad placement
+              <span className="font-medium">3. Monetization:</span> While ads can increase revenue, poor ad placement
               or overwhelming ads can negatively impact user experience.
             </p>
           </div>
@@ -100,7 +100,7 @@ const CaseStudy = () => {
             <p className="font-medium">5. Engagement Features</p>
           </div>
           <p>
-            "Exiles" fosters a competitive community through online multiplayer
+            "Centarius" fosters a competitive community through online multiplayer
             modes, where players can team up or compete against each other. This
             community aspect enhances engagement, as players can form alliances,
             share strategies, and participate in events.
@@ -119,7 +119,7 @@ const CaseStudy = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit
+            View
           </Link>
         </div>
         <div className="w-full md:w-1/4">
@@ -225,23 +225,23 @@ const CaseStudy = () => {
               </p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>
-                  Project Goals: What are the primary objectives for Centarius,
+                  <span className="font-medium">Project Goals:</span> What are the primary objectives for Centarius,
                   and what problems do you aim to address?
                 </li>
                 <li>
-                  Target Audience: Who is your target audience, and what are
+                  <span className="font-medium">Target Audience:</span> Who is your target audience, and what are
                   their key demographics?
                 </li>
                 <li>
-                  Must-Have Features: What essential features and
+                  <span className="font-medium">Must-Have Features:</span> What essential features and
                   functionalities should be included at launch?
                 </li>
                 <li>
-                  User Engagement Strategies: How do you envision enhancing user
+                  <span className="font-medium">User Engagement Strategies:</span> How do you envision enhancing user
                   engagement on the platform?
                 </li>
                 <li>
-                  Timeline and Milestones: What is your desired timeline for the
+                  <span className="font-medium">Timeline and Milestones:</span> What is your desired timeline for the
                   project, and are there any critical milestones we should know
                   about?
                 </li>
@@ -278,23 +278,23 @@ const CaseStudy = () => {
               <p className="mt-10 ">Here are some of our main observations:</p>
               <ul className="flex flex-col overflow-hidden font-extralight gap-0 md:gap-2 -mt-3 ml-5">
                 <li>
-                  Skillz: Requires sign-up and deposits for cash-prize
+                  <span className="font-medium">Skillz:</span> Requires sign-up and deposits for cash-prize
                   tournaments.
                 </li>
                 <li>
-                  WorldWinner: Focuses on skill-based cash contests, no
+                  <span className="font-medium">WorldWinner:</span> Focuses on skill-based cash contests, no
                   immersive games.
                 </li>
                 <li>
-                  FACEIT: Esports-focused, appeals to pro gamers, requires
+                  <span className="font-medium">FACEIT:</span> Esports-focused, appeals to pro gamers, requires
                   registration.
                 </li>
                 <li>
-                  Steam: Vast game library, but no prize contests or XP-based
+                  <span className="font-medium">Steam:</span> Vast game library, but no prize contests or XP-based
                   system.
                 </li>
                 <li>
-                  Roblox: User-generated games, lacks real-world prize contests.
+                  <span className="font-medium">Roblox:</span> User-generated games, lacks real-world prize contests.
                 </li>
               </ul>
             </div>
@@ -479,8 +479,11 @@ const CaseStudy = () => {
               height={500}></Image>
           </div>
           <div>
-            <h1>Final Design</h1>
+            <h1 className="font-medium text-2xl md:text-4xl">Final Design</h1>
             <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
+            <h1 className="font-medium text-2xl md:text-4xl">Conclusion</h1>
+            <h1>Final Thoughts: <span className="font-extralight"> Sum up the impact of Centarius and its potential moving forward.</span></h1>
+            <p className="font-extralight">Centarius represents a new era in gaming, blending casual enjoyment with competitive rewards in an easy-to-access, login-free environment. By rewarding players for their time, Centarius creates an engaging, long-lasting experience for gamers of all levels.</p>
           </div>
         </div>
       </div>

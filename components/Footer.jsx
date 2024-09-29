@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className='flex gap-5 md:gap-10'>
         <Link className='text-sm md:text-base' href='/projects'>Projects</Link>
-        <Link className='text-sm md:text-base' href='/about'>Aout</Link>
+        <Link className='text-sm md:text-base' href='/about'>About</Link>
         <Link className='text-sm md:text-base' href='/blog'>Blog</Link>
         <Link className='text-sm md:text-base' href='/contact'>Contact me</Link>
       </div>
