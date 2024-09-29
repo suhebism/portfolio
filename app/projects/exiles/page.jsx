@@ -3,6 +3,8 @@ import Image from "next/image";
 import MainImg from "../../../public/centarius-logo.png";
 import userflow from "../../../public/userflow.png";
 import moodboard from "../../../public/moodboard.png";
+import frame1 from '../../../public/Frame 1.png'
+import frame2 from '../../../public/Frame 2.png'
 import Slider from "../../../components/Slider";
 import Link from "next/link";
 
@@ -464,6 +466,21 @@ const CaseStudy = () => {
               height={500}
               src={moodboard}
             />
+          </div>
+          <div className="flex flex-col md:flex-row  justify-around items-center">
+            <Image src={frame1} 
+              alt="suheb"
+              className="w-full md:w-1/2"
+              width={200}
+              height={500}></Image>
+            <Image src={frame2} alt="suheb"
+              className="w-full md:w-1/2"
+              width={200}
+              height={500}></Image>
+          </div>
+          <div>
+            <h1>Final Design</h1>
+            <Slider pics={images} className="basis-[95%] md:basis-[70%]" />
           </div>
         </div>
       </div>
