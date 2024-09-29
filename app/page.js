@@ -4,7 +4,6 @@ import ProjectCard from "@/components/ProjectCard";
 import centarius from '../public/centarius-logo.png'
 import chargeSpot from '../public/chargespot.png'
 import homeShikshaImg from '../public/homeshiksha.png' // Add correct image path
-
 import upsc from '../public/UPSC.png'
 import {motion} from 'framer-motion'
 import Link from "next/link";
@@ -39,7 +38,7 @@ export default function Home() {
         <ProjectCard title="Centarius" category="UI/UX Case Study" img={centarius} year="2021"/>
       </Link>
       <div className="w-full h-[1px] md:hidden block bg-gradient-to-r from-black via-slate-700 to-black"/>
-      <Link href="exiles">
+      <Link href="projects/charge-spot">
         <ProjectCard title="ChargeSpot" category="UI/UX Case Study" img={chargeSpot} year="2022"/>
       </Link>
       <div className="w-full h-[1px] md:hidden block bg-gradient-to-r from-black via-slate-700 to-black"/>

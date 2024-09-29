@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MainImg from "../../../public/centarius-logo.png";
+import MainImg from "../../../public/chargespot-2.png";
 import userflow from "../../../public/userflow.png";
 import moodboard from "../../../public/moodboard.png";
 import Slider from "../../../components/Slider";
@@ -25,7 +25,7 @@ const CaseStudy = () => {
       {/* section one  */}
       <div className="w-full flex items-start md:items-center flex-col-reverse md:flex-row justify-between">
         <div className="w-full md:w-1/2 flex flex-col ">
-          <h1 className="font-bold text-5xl text-[#d5656f]">Centarius.App</h1>
+          <h1 className="font-bold text-5xl text-[#4868FB]">ChargeSpot</h1>
           <p className="font-light">
             Building the next generation of social gameplay
           </p>
@@ -40,13 +40,20 @@ const CaseStudy = () => {
       <div className="flex flex-col">
         <h1 className="text-3xl font-bold">Overview</h1>
         <p className="font-extralight w-full md:w-1/2 text-normal">
-          Introduce Centarius as a dynamic web-based gaming platform offering
-          two distinct categories of games: Immersive and Casual. Explain the
-          platform's goal of providing an engaging and rewarding gaming
-          experience, where users can either casually play or compete in
-          contests to win prizes. Emphasize your role as the product designer
-          and your focus on maximizing user engagement, increasing time spent on
-          the site, and optimizing revenue through ads.
+          ChargeSpot is a mobile app designed to assist users in locating the
+          nearest electric vehicle (EV) charging stations for various car makes,
+          models, and even electric bikes. The app simplifies the charging
+          process, ensuring users can quickly find compatible stations based on
+          their vehicle type, location, and preferred charging speed.
+          <br />
+          <br />
+          <br />
+          <br />
+          As the product designer, I was responsible for the entire design
+          process, including user research, wireframing, prototyping, and user
+          testing. I collaborated with developers, product managers, and EV
+          experts to ensure the app met the needs of users and industry
+          standards.
         </p>
       </div>
       {/* section one  */}
@@ -54,20 +61,18 @@ const CaseStudy = () => {
         <div className="flex flex-col gap-5 w-full  md:w-1/2">
           <h1 className="text-3xl font-bold">Problem</h1>
           <div className="font-extralight text-normal">
-            The gaming industry faces several key challenges:
+            {/* The gaming industry faces several key challenges: */}
             <p>
-              1. User Engagement: Many gaming platforms struggle to keep users
-              engaged for long periods, leading to high bounce rates and low
-              retention. Rewarding
+              With the rise of electric vehicles, finding accessible charging
+              stations can be challenging for users. Many current apps lack the
+              specificity for different vehicle types or provide inadequate
+              information about the availability or functionality of stations.
             </p>
             <p>
-              2. User Loyalty: Platforms often lack meaningful rewards for users
-              who spend time on the site, diminishing the motivation to continue
-              playing.
-            </p>
-            <p>
-              3. Monetization: While ads can increase revenue, poor ad placement
-              or overwhelming ads can negatively impact user experience.
+              Problem Statement: "How can we create a seamless experience for EV
+              users to locate, evaluate, and access the nearest charging
+              stations, considering the varying needs of different EV makes and
+              models?"
             </p>
           </div>
           <p className="font-extralight text-normal">
@@ -80,23 +85,33 @@ const CaseStudy = () => {
         </div>
         <div className="flex flex-col gap-5 w-full  md:w-1/2">
           <h1 className="text-3xl font-bold">Solution</h1>
-          <div className=" text-normal">
-            <p className="font-medium">1. Dual Game Categories</p>
-          </div>
-          <div className=" text-normal">
-            <p className="font-medium">
-              2. XP Point System and User Progression
-            </p>
-          </div>
-          <div className=" text-normal">
-            <p className="font-medium">3. Contests and Competitive Play</p>
-          </div>
-          <div className=" text-normal">
-            <p className="font-medium">4. Ad Placement and Monetization</p>
-          </div>
-          <div className=" text-normal">
-            <p className="font-medium">5. Engagement Features</p>
-          </div>
+
+          <p className="font-medium">
+            {" "}
+            Simplified Search and Discovery: The ChargeSpot app allows users to
+            effortlessly locate nearby charging stations using their current
+            location or a specific address. A key feature of the app is the
+            ability to filter results based on the user's vehicle make and
+            model. This ensures that users only see charging stations that are
+            compatible with their EV or bike, saving them time and reducing
+            frustration.
+          </p>
+
+          <p className="font-medium">
+            Vehicle-Based Search: Users can input their EV make and model, and
+            the app automatically filters out incompatible stations.
+          </p>
+
+          <p className=" text-normal">
+            Dynamic Map View: The map provides a real-time view of all available
+            stations nearby, using color-coded markers to indicate availability,
+            charging speed, and station type.
+          </p>
+
+          <p className="font-medium">4. Ad Placement and Monetization</p>
+
+          <p className="font-medium">5. Engagement Features</p>
+
           <p>
             "Exiles" fosters a competitive community through online multiplayer
             modes, where players can team up or compete against each other. This
@@ -151,7 +166,7 @@ const CaseStudy = () => {
       {/* section one  */}
       <div className="flex flex-col w-full items-start justify-start ">
         <div className="flex flex-col items-center justify-start w-full gap-10">
-          <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
+          <h1 className="sticky top-10 text-3xl font-bold bg-[#4868FB] w-full text-white text-center">
             {" "}
             Discovery
           </h1>
@@ -307,7 +322,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10">
-          <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
+          <h1 className="sticky top-10 text-3xl font-bold bg-[#4868FB] w-full text-white text-center">
             {" "}
             Ideation
           </h1>
@@ -348,7 +363,12 @@ const CaseStudy = () => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-10">
-            <Image src={userflow} width={500} height={500} style={{height:"fit-content"}}></Image>
+            <Image
+              src={userflow}
+              width={500}
+              height={500}
+              style={{ height: "fit-content" }}
+            ></Image>
             <div className="flex flex-col w-full ">
               <h1 className="font-medium text-2xl md:text-4xl">User Flow</h1>
               <p className="font-extralight mb-10">
@@ -367,46 +387,49 @@ const CaseStudy = () => {
                 <div>
                   <p>2. Browse Categories (Immersive & Casual)</p>
                   <p className="font-extralight ml-3">
-                  Immersive: Long, rich experiences.
+                    Immersive: Long, rich experiences.
                   </p>
                   <p className="font-extralight">
-                  Casual: Quick, easy-to-play games.
+                    Casual: Quick, easy-to-play games.
                   </p>
                 </div>
                 <div>
                   <p>3. Play Games</p>
                   <p className="font-extralight ml-3">
-                  Choose and play games directly in the browser.
+                    Choose and play games directly in the browser.
                   </p>
                 </div>
                 <div>
                   <p>4. Earn XP Points</p>
                   <p className="font-extralight ml-3">
-                  Gain XP as you play, tracked via a progress bar or meter.
+                    Gain XP as you play, tracked via a progress bar or meter.
                   </p>
                 </div>
                 <div>
                   <p>5. Participate in Contests</p>
                   <p className="font-extralight ml-3">
-                  Use XP to enter contests with rewards like money or gifts.
+                    Use XP to enter contests with rewards like money or gifts.
                   </p>
                 </div>
                 <div>
                   <p>6. Compete and Win</p>
                   <p className="font-extralight ml-3">
-                  Join weekly contests, and winners get prizes (prize money/gifts).
+                    Join weekly contests, and winners get prizes (prize
+                    money/gifts).
                   </p>
                 </div>
                 <div>
                   <p>7. Engagement Encouragement</p>
                   <p className="font-extralight ml-3">
-                  The more time spent, the more XP earned. Contest notifications keep users engaged.
+                    The more time spent, the more XP earned. Contest
+                    notifications keep users engaged.
                   </p>
                 </div>
                 <div>
                   <p>8. Explore & Repeat</p>
                   <p className="font-extralight ml-3">
-                  Continue playing games or switch categories to discover new ones.
+                    Continue playing games or switch categories to discover new
+                    ones.
                   </p>
                 </div>
               </div>
@@ -435,7 +458,7 @@ const CaseStudy = () => {
           <Slider pics={images2} className="basis-[95%] md:basis-[70%]" />
         </div>
         <div className="flex flex-col items-center justify-start w-full gap-10 mt-10">
-          <h1 className="sticky top-10 text-3xl font-bold bg-[#d5656f] w-full text-white text-center">
+          <h1 className="sticky top-10 text-3xl font-bold bg-[#4868FB] w-full text-white text-center">
             {" "}
             Design
           </h1>
@@ -449,11 +472,28 @@ const CaseStudy = () => {
               <p className="mt-10 font-extralight">Some findings were:</p>
               <div className="flex flex-col overflow-hidden font-extralight gap-5 md:gap-10  ml-5">
                 <p>
-                The color theme featuring pink and purple is often referred to as a vibrant gradient or neon gradient theme. It's common in futuristic and tech-driven designs, especially in the gaming and digital entertainment industries. These bright, bold colors with high contrast are part of the modern, playful or futuristic design style, often used to evoke energy, excitement, and creativity.
+                  The color theme featuring pink and purple is often referred to
+                  as a vibrant gradient or neon gradient theme. It's common in
+                  futuristic and tech-driven designs, especially in the gaming
+                  and digital entertainment industries. These bright, bold
+                  colors with high contrast are part of the modern, playful or
+                  futuristic design style, often used to evoke energy,
+                  excitement, and creativity.
                 </p>
-               
+
                 <p>
-                The color palette for Centarius, featuring pink and purple, was inspired by the emotional and psychological impact these colors evoke. Pink brings a sense of creativity, playfulness, and energy, perfectly aligning with the casual gaming experience. On the other hand, purple adds depth, ambition, and a touch of luxury, which suits the immersive and competitive aspects of the platform. Together, these colors create a dynamic and modern aesthetic, reflecting the vibrant, engaging atmosphere of the Centarius gaming world. This bold combination also taps into current design trends, offering both contrast and harmony for a visually striking user interface.
+                  The color palette for Centarius, featuring pink and purple,
+                  was inspired by the emotional and psychological impact these
+                  colors evoke. Pink brings a sense of creativity, playfulness,
+                  and energy, perfectly aligning with the casual gaming
+                  experience. On the other hand, purple adds depth, ambition,
+                  and a touch of luxury, which suits the immersive and
+                  competitive aspects of the platform. Together, these colors
+                  create a dynamic and modern aesthetic, reflecting the vibrant,
+                  engaging atmosphere of the Centarius gaming world. This bold
+                  combination also taps into current design trends, offering
+                  both contrast and harmony for a visually striking user
+                  interface.
                 </p>
               </div>
             </div>
