@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className='hidden md:flex gap-5 w-auto items-center '>
         <Link className='font-thin text-sm  hover:font-medium w-8 ' href="/">Home</Link>
         <Link className='font-thin text-sm hover:font-medium w-8' href="/about">About</Link>
-        <Link className='font-thin text-sm hover:font-medium w-8' href="/">Blog</Link>
+        <Link className='font-thin text-sm hover:font-medium w-8' href="/blog">Blog</Link>
         <div className='w-4 h-[1px] bg-white'></div>
         <Link className='font-thin text-sm hover:font-medium w-8' href='/contact'>Contact</Link>
       </div>

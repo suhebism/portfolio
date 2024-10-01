@@ -87,7 +87,6 @@ const CaseStudy = () => {
         </div>
         <div className="flex flex-col gap-5 w-full  md:w-1/2">
           <h1 className="text-3xl font-bold">Solution</h1>
-
           <p className="font-medium">
             {" "}
             Simplified Search and Discovery: The ChargeSpot app allows users to
@@ -98,22 +97,17 @@ const CaseStudy = () => {
             compatible with their EV or bike, saving them time and reducing
             frustration.
           </p>
-
           <p className="font-medium">
             Vehicle-Based Search: Users can input their EV make and model, and
             the app automatically filters out incompatible stations.
           </p>
-
           <p className=" text-normal">
             Dynamic Map View: The map provides a real-time view of all available
             stations nearby, using color-coded markers to indicate availability,
             charging speed, and station type.
           </p>
-
           <p className="font-medium">4. Ad Placement and Monetization</p>
-
           <p className="font-medium">5. Engagement Features</p>
-
           <p>
             "Exiles" fosters a competitive community through online multiplayer
             modes, where players can team up or compete against each other. This
@@ -507,17 +501,7 @@ const CaseStudy = () => {
               src={moodboard}
             />
           </div>
-          <div>
-            <Image src={frame1} 
-              alt="suheb"
-              className="w-full md:w-1/2"
-              width={200}
-              height={500}></Image>
-            <Image src={frame2} alt="suheb"
-              className="w-full md:w-1/2"
-              width={200}
-              height={500}></Image>
-          </div>
+          
         </div>
       </div>
     </div>
